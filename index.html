@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- jQuery UI : CSS + JS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+
+
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    <div id="containt"> 
+    <div id="principal"> 
+
+         <div id="scoreJ1"> Score Joueur 1 :</div>
+         <div id="scoreJ2"> Score Joueur 2 :</div>
+
+
+        <canvas id="canvas" width="800" height="590"> </canvas>  
+   
+        <div id="btn"> 
+         <button id="start"> START/RESTART</button>
+         <button id="touche"> Configurer les touches</button>
+         </div>
+
+
+  
+
+    </div>
+
+
+    
+    <div id="configDialog" title="Configuration des touches" style="display:none;">
+    <p>Appuie sur une touche pour définir la direction :</p>
+
+    <label>Haut (J1) :</label>
+    <input type="text" id="hautJ1" ><br><br>
+
+    <label>Bas (J1) :</label>
+    <input type="text" id="basJ1" ><br><br>
+
+    <label>Gauche (J1) :</label>
+    <input type="text" id="gaucheJ1" ><br><br>
+
+    <label>Droite (J1) :</label>
+    <input type="text" id="droiteJ1" ><br><br>
+
+    <label>Saut (J1) :</label>
+    <input type="text" id="sautJ1" ><br><br>
+
+    <label>Haut (J2) :</label>
+    <input type="text" id="hautJ2" ><br><br>
+
+    <label>Bas (J2) :</label>
+    <input type="text" id="basJ2" ><br><br>
+
+    <label>Gauche (J2) :</label>
+    <input type="text" id="gaucheJ2" ><br><br>
+
+    <label>Droite (J2) :</label>
+    <input type="text" id="droiteJ2" ><br><br>
+
+    
+    <label>Saut (J2) :</label>
+    <input type="text" id="sautJ2" ><br><br>
+    </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
